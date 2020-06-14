@@ -59,6 +59,8 @@ body, html {
 
 .masthead .subtext .img-fluid {
   height: 200px;
+  width: 100%;
+  padding: 0;
 }
 
 .masthead .subtext h2 {
@@ -167,7 +169,7 @@ body, html {
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: #b7aaa0;
+  background-color: #e6b531;
   height: 200px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -542,6 +544,7 @@ body, html {
     font-size: 20px;
   }
   .mastheadP {
+    padding-top: 8rem !important;
     height: 60%;
     padding: 3rem;
     background-color: #eeb27a;

@@ -58,6 +58,8 @@ body, html {
     .subtext {
         .img-fluid {
             height:200px;
+            width:100%;
+            padding:0;
         }
 
         h2 {
@@ -142,7 +144,7 @@ body, html {
     position:fixed;
     bottom:0;
     width:100%;
-    background-color:	#b7aaa0;
+    background-color:	rgba(230, 181, 49, 1);
     height:200px;
     display:flex;
     flex-direction:column;
@@ -490,6 +492,7 @@ body, html {
  }
 
  .mastheadP {
+     padding-top:8rem !important;
      height:60%;
      padding:3rem;
 
