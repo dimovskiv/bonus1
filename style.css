@@ -365,6 +365,21 @@ body, html {
   border: none;
 }
 
+.mastheadP .form {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.mastheadP .subtext {
+  width: 100%;
+}
+
 .slots {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -547,6 +562,10 @@ body, html {
     padding-top: 8rem !important;
     height: 60%;
     padding: 3rem;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     background-color: #eeb27a;
     background: none;
     background-repeat: repeat-y;
@@ -558,6 +577,35 @@ body, html {
     font-size: 20px;
     margin-top: 10px;
     color: white;
+  }
+  .mastheadP .subtext {
+    width: 50%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .mastheadP .subtext .form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 80%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .navbar {
     background-color: rgba(230, 181, 49, 0.8);
