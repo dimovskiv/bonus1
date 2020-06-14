@@ -276,7 +276,7 @@ body, html {
 
 .mastheadP {
     background-image: url("bg.png");
-    height:50%;
+    height:80%;
     display:flex;
     justify-content: center;
     align-items:center;
@@ -297,7 +297,11 @@ body, html {
         opacity:0.8;
     }
 
-    
+    .btnn {
+        background-color:#2962bf;
+        padding:10px;
+        border:none;
+    }
 }
 
 .slots {
@@ -486,6 +490,7 @@ body, html {
  }
 
  .mastheadP {
+     height:60%;
      padding:3rem;
 
      background-color:	#eeb27a;

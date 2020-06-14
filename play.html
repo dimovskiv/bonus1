@@ -19,25 +19,25 @@
       <div class="mastheadP">
         <div class="subtext">
             <h3 class="text-center" >Welcome to bonusstar.info Social Casino; home of the best free slots! </h3>
-        </div>
-        <div class="subtext">
+            <p class="text-center">At bonusstar.info you can find the best social casino games</p> 
             <h3 class="text-center">Our Social Casino games are free to play. Play slot machines on our website! No real money ever needed!</h3>
-        
-        </div>
-        <div class="subtext mt-3">
             <p>Check out all the top FREE social Casino games you can play in 2020 for hours </p>
         </div>
-      <div class="subtext">
-        <p>At bonusstar.info you can find the best social casino games</p> 
+  
 
-
-      </div>
+           <form class="contact-form mt-4" action="sendemail.php" method="post" enctype="text/plain">
+          <input id="name" placeholder="Name *" class="form-control">
+                    <input id="email" placeholder="E-mail *" class="form-control mt-2">
+                    <input s id="number" placeholder="Mobie number *" class="form-control mt-2">
+                   
+                    <input type="button" style="color:white !important;" onclick="sendEmail()" value="Regsiter with us to play more games" class="btnn mt-4">
+        </form>
       
      
     </div>
 
     <div class="slots">
-        <div class="item i1">
+        <div class="item i1 mt-2">
             <img src="slot1.jpg" class="img-fluid" onclick="window.location.href = 'game1.html';">
         </div>
         <div class="item i2 mt-2">
@@ -89,6 +89,50 @@
             <button id="hide"  >Accept</button>
         </div>
       </div>
+    
+      <script type="text/javascript">
+        function form_submit() {
+          document.getElementById("search_form").submit();
+         }    
+        </script>
+    <script type="text/javascript">
+      function sendEmail() {
+          var name = $("#name");
+          var email = $("#email");
+          var number = $("#number");
+          alert("success");
+    
+          if (isNotEmpty(name)) {
+              $.ajax({
+                 url: 'sendEmail.php',
+                 method: 'POST',
+                 dataType: 'json',
+                 data: {
+                     name: name.val(),
+                     email: email.val(),  
+                     number: number.val(),
+                 }, success: function (response) {
+                      if (response.status == "success")
+                          alert('Email Has Been Sent!');
+                      else {
+                          alert('Please Try Again!');
+                          console.log(response);
+                      }
+                 }
+              });
+          }
+      }
+    
+      function isNotEmpty(caller) {
+          if (caller.val() == "") {
+              caller.css('border', '2px solid #F7F4D2');
+              return false;
+          } else
+              caller.css('border', '');
+    
+          return true;
+      }
+    </script>
     
 
       <script>
