@@ -1,10 +1,9 @@
 body {
-    background-color:black;
-    padding:20px;
-    font-family: 'Roboto'
+    background-color:	#b7aaa0;
+    font-family: 'Oswald';
     
 }
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 
 a {
     text-decoration:none !important;
@@ -22,7 +21,7 @@ body, html {
     position:fixed;
     width:100%;
 
-    background-color:rgba(34,34,34,0.9) !important;
+    background-color:rgba(230, 181, 49, 0.8) !important;
     z-index:99;
   
 
@@ -38,6 +37,7 @@ body, html {
 }
 
 .masthead {
+    
     height:100%;
     background-image: url("bg.png");
     background-repeat: no-repeat;
@@ -48,7 +48,7 @@ body, html {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    padding-top:3rem;
+    padding-top:5rem;
 
     .img-fluid {
         height:120px;
@@ -82,7 +82,7 @@ body, html {
     padding-top:3rem !important;
     padding:2rem;
 
-    background-color:black;
+    background-color:#b7aaa0;
 
     .item {
         width:100%;
@@ -142,7 +142,7 @@ body, html {
     position:fixed;
     bottom:0;
     width:100%;
-    background-color:	black;
+    background-color:	#b7aaa0;
     height:200px;
     display:flex;
     flex-direction:column;
@@ -229,7 +229,7 @@ body, html {
 
 .termsC {
     padding-top:5rem !important;
-    background-color:black!important;
+    background-color:	#b7aaa0 !important;
     
     a {
         color:white;
@@ -282,6 +282,8 @@ body, html {
     align-items:center;
     flex-direction: column;
     padding:1rem;
+    padding-top:6rem !important;
+
 
     p {
         text-align: center;
@@ -328,7 +330,7 @@ body, html {
     align-items: center;
 
     a {
-        background-color:#154961;
+        background-color:#b7aaa0;
         color:white!important;
         padding:10px;
         border-radius:50px;
@@ -341,7 +343,7 @@ body, html {
         padding-top:4rem;
         flex-direction:row !important;
         .item {
-            width:33.3%;
+            width:25%;
             .img-fluid {
                 width:98%;
                 height:600px;
@@ -366,7 +368,7 @@ body, html {
     }
 
     .masthead {
-        background-image: url("bgbig.jpg");
+        background-image: url("bg.jpg");
 
         .subtext {
             display:none;
@@ -431,7 +433,7 @@ body, html {
 
     .termsC {
         padding-top:10rem !important;
-        background-color:black !important;
+        background-color:	#b7aaa0 !important;
         li, p {
             font-size:30px !important;
             color:white !important;
@@ -448,7 +450,7 @@ body, html {
 
         .item {
             a {
-                background-color:#222222;
+                background-color:#e6b531;
             }
         }
     }
@@ -485,7 +487,8 @@ body, html {
 
  .mastheadP {
      padding:3rem;
-     background-color:154961!important;
+
+     background-color:	#eeb27a;
      background:none;
      background-repeat: repeat-y;
      h3 {
@@ -500,7 +503,7 @@ body, html {
  }
 
  .navbar {
-     background-color:rgba(20, 74, 98,0.5)!important;
+     background-color:rgba(230, 181, 49, 0.8);
      z-index: 99;
      .nav-item {
          a {

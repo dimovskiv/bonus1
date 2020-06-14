@@ -1,8 +1,7 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Oswald&display=swap");
 body {
-  background-color: black;
-  padding: 20px;
-  font-family: 'Roboto';
+  background-color: #b7aaa0;
+  font-family: 'Oswald';
 }
 
 a {
@@ -18,7 +17,7 @@ body, html {
 .navbar {
   position: fixed;
   width: 100%;
-  background-color: rgba(34, 34, 34, 0.9) !important;
+  background-color: rgba(230, 181, 49, 0.8) !important;
   z-index: 99;
 }
 
@@ -50,7 +49,7 @@ body, html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-top: 3rem;
+  padding-top: 5rem;
 }
 
 .masthead .img-fluid {
@@ -88,7 +87,7 @@ body, html {
           justify-content: center;
   padding-top: 3rem !important;
   padding: 2rem;
-  background-color: black;
+  background-color: #b7aaa0;
 }
 
 .aboutUs .item {
@@ -168,7 +167,7 @@ body, html {
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: black;
+  background-color: #b7aaa0;
   height: 200px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -279,7 +278,7 @@ body, html {
 
 .termsC {
   padding-top: 5rem !important;
-  background-color: black !important;
+  background-color: #b7aaa0 !important;
   -webkit-box-align: center !important;
       -ms-flex-align: center !important;
           align-items: center !important;
@@ -344,6 +343,7 @@ body, html {
       -ms-flex-direction: column;
           flex-direction: column;
   padding: 1rem;
+  padding-top: 6rem !important;
 }
 
 .mastheadP p {
@@ -397,7 +397,7 @@ body, html {
 }
 
 .other a {
-  background-color: #154961;
+  background-color: #b7aaa0;
   color: white !important;
   padding: 10px;
   border-radius: 50px;
@@ -412,7 +412,7 @@ body, html {
             flex-direction: row !important;
   }
   .slots .item {
-    width: 33.3%;
+    width: 25%;
   }
   .slots .item .img-fluid {
     width: 98%;
@@ -434,7 +434,7 @@ body, html {
     margin: 15px;
   }
   .masthead {
-    background-image: url("bgbig.jpg");
+    background-image: url("bg.jpg");
   }
   .masthead .subtext {
     display: none;
@@ -504,7 +504,7 @@ body, html {
   }
   .termsC {
     padding-top: 10rem !important;
-    background-color: black !important;
+    background-color: #b7aaa0 !important;
   }
   .termsC li, .termsC p {
     font-size: 30px !important;
@@ -518,7 +518,7 @@ body, html {
     color: white !important;
   }
   .termsC .item a {
-    background-color: #222222;
+    background-color: #e6b531;
   }
   .gD {
     height: 80%;
@@ -537,7 +537,7 @@ body, html {
   }
   .mastheadP {
     padding: 3rem;
-    background-color: 154961 !important;
+    background-color: #eeb27a;
     background: none;
     background-repeat: repeat-y;
   }
@@ -550,7 +550,7 @@ body, html {
     color: white;
   }
   .navbar {
-    background-color: rgba(20, 74, 98, 0.5) !important;
+    background-color: rgba(230, 181, 49, 0.8);
     z-index: 99;
   }
   .navbar .nav-item {
